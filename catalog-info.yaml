@@ -9,3 +9,27 @@ spec:
   type: service
   owner: janus-authors
   lifecycle: production
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    "jenkins.io/job-full-name": "ws1/calculator-app-pipeline"
+  name: test-quarkus-app-ws1
+  description: An example of a Backstage application.
+spec:
+  type: service
+  owner: janus-authors
+  lifecycle: production
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    "jenkins.io/job-full-name": "ws2/sub-w2/sub-sub-ws2/calculator-app-pipeline"
+  name: test-quarkus-app-ws2
+  description: An example of a Backstage application.
+spec:
+  type: service
+  owner: janus-authors
+  lifecycle: production
