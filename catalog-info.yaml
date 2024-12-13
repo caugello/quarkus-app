@@ -11,7 +11,7 @@ spec:
   lifecycle: production
 ---
 apiVersion: backstage.io/v1alpha1
-kind: Componentk
+kind: Component
 metadata:
   annotations:
     "jenkins.io/job-full-name": "calculator-app-pipeline"
