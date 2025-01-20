@@ -16,7 +16,7 @@ metadata:
   name: test-quarkus-gh-actions
   description: backstage.io
   annotations:
-    github.com/project-slug: 'caugello/rhtap-gh-actions'
+    "github.com/project-slug": 'caugello/rhtap-gh-actions'
 spec:
   type: website
   lifecycle: production
