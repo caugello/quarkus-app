@@ -21,3 +21,15 @@ spec:
   type: service
   owner: janus-authors
   lifecycle: production
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage
+  description: backstage.io
+  annotations:
+    github.com/project-slug: 'caugello/rhtap-gh-actions'
+spec:
+  type: website
+  lifecycle: production
+  owner: janus-authors
