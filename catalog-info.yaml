@@ -18,6 +18,6 @@ metadata:
   annotations:
     "github.com/project-slug": 'caugello/rhtap-gh-actions'
 spec:
-  type: website
+  type: service
   lifecycle: production
   owner: janus-authors
