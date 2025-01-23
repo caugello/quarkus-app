@@ -13,6 +13,18 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  annotations:
+    "jenkins.io/job-full-name": "experimental automation pipeline v1"
+  name: test-quarkus-app-spaced
+  description: An example of a Backstage application.
+spec:
+  type: service
+  owner: janus-authors
+  lifecycle: production
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
   name: test-quarkus-gh-actions
   description: backstage.io
   annotations:
