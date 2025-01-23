@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    "jenkins.io/job-full-name": "calculator-app-pipeline"
+    "jenkins.io/job-full-name": "build-pipeline,deploy-pipeline"
   name: test-quarkus-app
   description: An example of a Backstage application.
 spec:
