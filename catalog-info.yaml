@@ -40,8 +40,7 @@ metadata:
   name: test-quarkus-gitlab
   description: backstage.io
   annotations:
-    "gitlab.com/project-id": '112757'
-    "gitlab.com/instance": 'internal'
+    "gitlab.com/project-id": '66599006'
 spec:
   type: service
   lifecycle: production
