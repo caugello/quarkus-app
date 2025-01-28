@@ -33,3 +33,15 @@ spec:
   type: service
   lifecycle: production
   owner: janus-authors
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-quarkus-gh-actions
+  description: backstage.io
+  annotations:
+    "gitlab.com/project-slug": 'caugello/rhtap-multici-test'
+spec:
+  type: service
+  lifecycle: production
+  owner: janus-authors
