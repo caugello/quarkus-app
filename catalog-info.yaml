@@ -41,6 +41,7 @@ metadata:
   description: backstage.io
   annotations:
     "gitlab.com/project-slug": 'caugello/rhtap-multici-test'
+    "gitlab.com/instance": 'internal'
 spec:
   type: service
   lifecycle: production
