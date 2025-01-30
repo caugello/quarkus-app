@@ -37,6 +37,19 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  name: test-quarkus-gitlab-internal
+  description: backstage.io
+  annotations:
+    "gitlab.com/project-id": '112757'
+    "gitlab.com/instance": 'cee'
+spec:
+  type: service
+  lifecycle: production
+  owner: janus-authors
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
   name: test-quarkus-gitlab-dev
   description: backstage.io
   annotations:
