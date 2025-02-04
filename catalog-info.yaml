@@ -77,9 +77,10 @@ metadata:
   name: test-quarkus-multi-ci
   description: backstage.io
   annotations:
-    "gitlab.com/project-id": '66590134'
     "github.com/project-slug": 'caugello/rhtap-gh-actions'
     "jenkins.io/job-full-name": "build-pipeline,deploy-pipeline"
+    "gitlab.com/project-id": '112757'
+    "gitlab.com/instance": 'gitlab.internal.cee'
 spec:
   type: service
   lifecycle: production
