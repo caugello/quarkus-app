@@ -70,5 +70,19 @@ spec:
   type: service
   lifecycle: production
   owner: janus-authors
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-quarkus-multi-ci
+  description: backstage.io
+  annotations:
+    "gitlab.com/project-id": '66590134'
+    "github.com/project-slug": 'caugello/rhtap-gh-actions'
+     "jenkins.io/job-full-name": "build-pipeline,deploy-pipeline"
+spec:
+  type: service
+  lifecycle: production
+  owner: janus-authors
 
 
