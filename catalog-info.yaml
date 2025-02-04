@@ -79,7 +79,7 @@ metadata:
   annotations:
     "gitlab.com/project-id": '66590134'
     "github.com/project-slug": 'caugello/rhtap-gh-actions'
-     "jenkins.io/job-full-name": "build-pipeline,deploy-pipeline"
+    "jenkins.io/job-full-name": "build-pipeline,deploy-pipeline"
 spec:
   type: service
   lifecycle: production
