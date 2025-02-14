@@ -85,5 +85,15 @@ spec:
   type: service
   lifecycle: production
   owner: janus-authors
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-no-ci-configured
+  description: backstage.io
+spec:
+  type: service
+  lifecycle: production
+  owner: janus-authors
 
 
