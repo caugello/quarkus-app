@@ -111,7 +111,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: test-quarkus-gitlab-dev
+  name: test-quarkus-gitlab-fvmmug2cp-go
   description: backstage.io
   annotations:
     "gitlab.com/project-id": '66632817'
