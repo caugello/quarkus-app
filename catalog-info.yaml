@@ -107,5 +107,18 @@ spec:
   type: service
   lifecycle: production
   owner: janus-authors
+  ---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-quarkus-gitlab-dev
+  description: backstage.io
+  annotations:
+    "gitlab.com/project-id": '66632817'
+spec:
+  type: service
+  lifecycle: production
+  owner: janus-authors
+  
 
 
