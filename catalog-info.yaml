@@ -95,5 +95,17 @@ spec:
   type: service
   lifecycle: production
   owner: janus-authors
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-gh-no-logs
+  description: backstage.io
+  annotations:
+    "github.com/project-slug": 'karthikjeeyar/GHA-matrix-workflow'
+spec:
+  type: service
+  lifecycle: production
+  owner: janus-authors
 
 
