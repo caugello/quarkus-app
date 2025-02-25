@@ -111,6 +111,18 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  name: test-tpa-link
+  description: backstage.io
+  annotations:
+    "github.com/project-slug": 'tnevrlka-rhtap/baz-gitops'
+spec:
+  type: service
+  lifecycle: production
+  owner: janus-authors
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
   name: test-quarkus-gitlab-fvmmug2cp-go
   description: backstage.io
   annotations:
