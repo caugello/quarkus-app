@@ -140,6 +140,7 @@ metadata:
   annotations:
     dev.azure.com/project: "rhtap-test"
     dev.azure.com/build-definition: "tnevrlka-rhtap.tssc-dev-source-azure"
+    dev.azure.com/host-org: "dev.azure.com/rhtap-test"
 spec:
   type: service
   lifecycle: production
