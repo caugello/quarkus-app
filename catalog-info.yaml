@@ -145,6 +145,20 @@ spec:
   type: service
   lifecycle: production
   owner: janus-authors
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-azure-pipelines-live
+  description: backstage.io
+  annotations:
+    dev.azure.com/project: "shared-public"
+    dev.azure.com/build-definition: "tnevrlka-rhtap.azure-live"
+    dev.azure.com/host-org: "dev.azure.com/rhtap-test"
+spec:
+  type: service
+  lifecycle: production
+  owner: janus-authors
   
 
 
