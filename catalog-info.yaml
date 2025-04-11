@@ -159,6 +159,18 @@ spec:
   type: service
   lifecycle: production
   owner: janus-authors
-  
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: quay-repo-nodejs
+  description: backstage.io
+  annotations:
+    "quay.io/repository-slug": 'caugello/single-nodejs-app'
+    "github.com/project-slug": 'caugello/rhtap-gh-actions'
+spec:
+  type: service
+  lifecycle: production
+  owner: janus-authors
 
 
