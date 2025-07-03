@@ -211,8 +211,8 @@ metadata:
     # It's important that your Tekton CRs have this annotation. If not they wont appear.
     backstage.io/kubernetes-id: 'rhtap'
     backstage.io/kubernetes-namespace: 'tekton-pipelines'
-  spec:
-    type: service
-    lifecycle: production
-    owner: janus-authors
+spec:
+  type: service
+  lifecycle: production
+  owner: janus-authors
 
