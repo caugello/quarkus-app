@@ -219,6 +219,21 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  name: test-azure-pipelines-no-definitions
+  description: backstage.io
+  annotations:
+    mssv/enabled: "true"
+    dev.azure.com/project: "shared-public"
+    dev.azure.com/build-definition: "rhtap-test-org.go-qqwamilj"
+    dev.azure.com/host-org: "dev.azure.com/rhtap-test"
+spec:
+  type: service
+  lifecycle: production
+  owner: janus-authors
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
   name: tekton-demo
   namespace: development
   annotations:
