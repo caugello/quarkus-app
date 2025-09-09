@@ -219,7 +219,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: test-azure-pipelines-no-definitions
+  name: test-azure-pipelines-test-org
   description: backstage.io
   annotations:
     mssv/enabled: "true"
